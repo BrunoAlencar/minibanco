@@ -1,0 +1,19 @@
+#header{
+    font-family: cursive;
+}
+h1{
+    font-family: cursive;
+}
+fieldset{
+
+    margin-left: 20em;
+    background-color: aliceblue;
+    text-align: center;
+    position: relative;
+}
+#form{
+    text-align: center;
+    position: relative;
+    width: 50em;
+    height: auto;
+}
