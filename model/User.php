@@ -1,5 +1,5 @@
 <?php
-include '../../conection/Conection.php';
+include '../conection/Conection.php';
 
 
 class User {

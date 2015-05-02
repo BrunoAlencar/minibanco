@@ -11,9 +11,9 @@ include 'header.php';
             <h3 class="panel-title" align="center">Cadastro</h3>
         </div>
         <div class="panel-body" align="center">
-            <form action="cadastro.php" method="post" name="form">
+            <form  action="../conection/insert.php" method="post" >
                 id: <input type="text" name="id" value=" "/> <br/>
-                nome: <input type="text" name="name"  value=" "/><br/>
+                nome: <input type="text" name="nome"  value=" "/><br/>
                 email:<input type="text" name="email" value=" "/><br/>
                 senha:<input type="text" name="password" value=" "/><br/>
                 <input type="submit" value="Submit Form"/>
@@ -24,7 +24,7 @@ include 'header.php';
 </div>
 <?php
 include 'footer.php';
-include '../conection/conProcedure.php';
+include '../conection/insert.php';
 ?>
 
 

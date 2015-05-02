@@ -1,5 +1,8 @@
 <?php
 include 'header.php';
+include '../control/UserController.php';
+$userController = new UserController();
+
 ?>
     <div class="col-md-10 col-md-offset-1">
         <div class="panel panel-primary">
@@ -11,13 +14,13 @@ include 'header.php';
                     <div class="form-group">
                         <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
                         <div class="col-sm-9">
-                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                            <input type="email" class="form-control" id="inputEmail3" name="email" placeholder="Email" value="">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
                         <div class="col-sm-9">
-                            <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                            <input type="password" class="form-control" id="inputPassword3" name="password" placeholder="Password" value="">
                         </div>
                     </div>
                     <div class="form-group">
@@ -39,5 +42,8 @@ include 'header.php';
         </div>
     </div>
 <?php
+include '../conection/logar.php';
 include 'footer.php';
+
+
 ?>

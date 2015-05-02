@@ -1,5 +1,5 @@
 <?php
-include '../../model/User.php';
+include '../model/User.php';
 
 class UserController {
     function  findAll(){
